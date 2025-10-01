@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #111;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main > .nav{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.nav{
+    padding:1vw 1.5vw;
+    font-size: 1.2vw;
+}
+.nav>.nav-left a{
+   text-decoration: none; 
+   padding-left: 1.5vw; 
+}
+.nav> .nav-center h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+    
+}
+.nav> .nav-right a{
+   text-decoration: none; 
+   padding-left: 1.5vw;   
+}
+.main> h1{
+    font-size: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vw;
+    font-weight: 400;
+}
+.side{
+    width: 100%;
+    display: flex;
+}
+.left-side{
+    width: 25%;
+    padding:0.7vw 3vw;
+}
+.left-side > h4{
+    font-size: 1.2vw;
+    font-family: 900;
+    padding-top: .7vw;
+    padding-bottom: 0.7vw;
+}
+.right-side{
+    width: 100%;
+    
+}
+.right-side> #first{
+    height: 17vw;
+    width: 15vw;
+    position: absolute;
+    top: 51%;
+    left:41%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    z-index: 3;
+}
+.right-side> #second{
+    height: 19vw;
+    width: 15vw;
+    position: absolute;
+    top: 52%;
+    left: 53%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    z-index: 2;
+}
+.right-side> #third{
+    height: 22vw;
+    width: 15vw;
+    position: absolute;
+   top: 42%;
+    left: 65%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    z-index: 1;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+.bottom h3{
+    font-size: 1rem;
+    padding-left: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.bottom >button{
+    padding: 0.1rem 1rem;
+    font-weight: 400;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.bottom >button> a{
+    text-decoration: none;
+    font-weight: bold;
+}

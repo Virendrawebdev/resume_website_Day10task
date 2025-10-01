@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -44,9 +45,9 @@ i{
 button{
     margin-top: 50px;
     padding: 20px 40px;
-    color: aliceblue;
-    border: 2px solid gray;
+    color: rgb(10, 127, 230);
+    border: 10px solid gray;
     border-radius: 50px;
-    font-size: 1em;
+    font-size: 1.2em;
    background-color: transparent;
 }
