@@ -14,7 +14,7 @@ html,body{
 }
 .main{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
     background-size: cover;
     background-position: center;
