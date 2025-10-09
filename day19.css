@@ -1,0 +1,162 @@
+@font-face {
+    font-family: sf;
+    src: url(sf-pro-text_semibold.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sf;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+
+    grid-template-areas: "header header header header"
+                          "aside aside section section"
+                           "aside aside left right";
+
+}
+#header{
+    grid-area: header;
+    /* background-color: #c80b0b; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#header-left h2{
+    font-size: 1.5rem;
+    font-family: sf;
+}
+#header-center{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#header-center a{
+   text-decoration: none;
+   color: #111;
+}
+#header-right{
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+#header-right> #btn1 {
+    padding: 10px 20px;
+    color: #111;
+    background-color:transparent;
+    border: none;
+}
+#header-right> #btn2{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #111;
+    color: #fff;
+
+}
+#header-right> #btn2 i{
+    width: 10px;
+    background-color: #73bad8;
+    padding: 5px;
+    border-radius: 50%;
+    color: #111;
+    gap: 5px;
+}
+
+
+
+#aside{
+    grid-area: aside;
+    /* background-color: #1ea43e; */
+}
+#aside>#sp{
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-image: url(./Sheryians.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 2%;
+
+}
+#aside h2{
+    display: inline;
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-left: 2%;
+}
+#aside>#sp1{
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-left: 3vw;
+    position: absolute;
+    border: 2px solid #111;
+    margin-top: 1%;
+}
+#aside #sp1 i{
+    font-size: 1.3rem;
+    
+}
+#aside #btn3{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #111;
+    color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+#aside p{
+    width:50% ;
+    padding-top: 10%;
+    margin-left: 2%;
+}
+#aside #last{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    padding:0 2%;
+    font-size: 1.5rem;
+}
+#section{
+    grid-area: section;
+    width: 100%;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQw337VWL9PDmoEWZs56_RPt71fbrq43jhg&s);
+   background-position: center;
+   background-size: cover;
+   border-radius: 50px;
+    
+
+}
+
+#left{
+    grid-area: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-7UIYLcEK1mAwct1XgW8aSMnvm3ZEQBYgQ&s);
+    background-size: cover;
+   background-position: center;
+   border-radius: 50px;
+}
+#right{
+    grid-area: right;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0HkQcQrAHAcMHB_jzk3x3C_-_aVHvcBHJkQ&);
+    background-size: cover;
+   background-position: center;
+   border-radius: 50px;
+}
